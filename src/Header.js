@@ -12,8 +12,6 @@ import { logout, selectUser } from "./features/userSlice";
 import { auth } from "./firebase";
 
 const Header = () => {
-  const user = useSelector(selectUser);
-
   const dispatch = useDispatch();
 
   const logoutOfApp = () => {

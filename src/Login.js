@@ -74,7 +74,7 @@ const Login = () => {
         <input
           value={email}
           onChange={(e) => setEmail(e.target.value)}
-          placeholder="Profile pic URL (optional)"
+          placeholder="email"
           type="email"
         />
         <input
